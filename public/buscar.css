@@ -1,0 +1,51 @@
+body{
+  background-image: url("fundomegalu1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.caixacabeçalho{
+  height: 97px;
+  width: 100%;
+  background-color: gray;
+  opacity: 0.2;
+}
+.linkcadastro{
+  color: black;
+}
+.Logo{
+  position: fixed;
+  margin-left: 75px;
+  margin-top: -87px;
+  opacity: 1;
+}
+.caixapesquisa{
+  position: fixed;
+  margin-top: -66px;
+  margin-left: 500px;
+  opacity: 1;
+  width: 300px;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
+.pesquisa{
+  position: fixed;
+  margin-left: 812px;
+  margin-top: -63px;
+  opacity: 1;
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
+.container1{
+  color: white;
+  position: fixed;
+  margin-left: 300px;
+}
+.container2{
+  color: white;
+  position: fixed;
+  margin-left: 800px;
+}

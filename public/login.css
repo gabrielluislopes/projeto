@@ -1,0 +1,34 @@
+body{
+  background-image: url("fundomegalu1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.caixacabeçalho{
+  height: 97px;
+  width: 100%;
+  background-color: gray;
+  opacity: 0.2;
+}
+.linkcadastro{
+  color: black;
+}
+.Logo{
+  position: fixed;
+  margin-left: 75px;
+  margin-top: -87px;
+  opacity: 1;
+}
+.login-form{
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 123px;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fadaa0;
+}
+.linkcad{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,554 @@
+body{
+  background-image: url("fundomegalu1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+.flutuante{
+  float: left;
+}
+@font-face {
+  font-family: "Oswald-ExtraLight";
+  src: url('Oswald-ExtraLight.ttf');
+}
+.caixacabeçalho{
+  height: 97px;
+  width: 100%;
+  background-color: gray;
+  opacity: 0.2;
+}
+.Logo{
+  position: fixed;
+  margin-left: 75px;
+  margin-top: -87px;
+  opacity: 1;
+}
+.menu{
+  position: fixed;
+  left: 50%;
+  top: 0;
+}
+.menu ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu li{
+  display: inline;
+  position: relative;
+}
+.menu a{
+  padding: 5px 15px;
+  font-size: 15px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 97px;
+}
+.menu ul li a:hover{
+  color: #ff0000;
+}
+.menu li ul{
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  display: none;
+}
+.menu li:hover ul{
+  display: block;
+}
+.menu li ul li{
+  display: block;
+}
+.menu li ul a{
+  width: 175px;
+  height: 25px;
+  border-top: 0.1px solid white;
+  color: white;
+  background-color: black;
+  font-size: 13px;
+  line-height: 25px;
+}
+.menu li ul a:hover{
+  background-color: #e05600;
+  color: white;
+}
+.caixatexto{
+  position: absolute;
+  top: 290px;
+  width: 86%;
+  height: 165px;
+  margin-left: 75px;
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  text-align: center;
+  line-height: 82.5px;
+}
+h1{
+  font-size: 65px;
+  color: white;
+}
+p{
+  position: absolute;
+  top: 480px;
+  left: 300px;
+  color: white;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.Logomobile{
+  display: none;
+}
+#serviços a{
+  position: fixed;
+  top: 580px;
+  left: 600px;
+  width: 125px;
+  height: 40px;
+  border: 2px solid white;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  text-decoration: none;
+}
+#serviços a:hover{
+  background-color: white;
+  color: black;
+}
+#contato a{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#contato img{
+  max-width: 75px;
+  max-height: 75px;
+  width: auto;
+  height: auto;
+}
+.menuMobile{
+  display: none;
+}
+.wrapper{
+  max-width: 1366px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 360px){
+  .menu{
+    display: none;
+  }
+  .caixacabeçalho{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    opacity: 1;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logomobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 30px;
+  }
+  .caixatexto{
+    position: absolute;
+    top: 190px;
+    width: 300px;
+    height: 157px;
+    margin-left: 30px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 33px;
+    margin-top: 37px;
+  }
+  p{
+    position: absolute;
+    top: 360px;
+    left: 7px;
+    color: white;
+    font-size: 21px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 35px;
+  }
+  body{
+    background-image: url('desk_bgr_dark-1-mobile-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  #serviços a{
+    position: fixed;
+    top: 540px;
+    left: 120px;
+    width: 125px;
+    height: 40px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  #contato{
+    display: none;
+  }
+  .menuMobile{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 32px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px){
+  .menu{
+    display: none;
+  }
+  .caixacabeçalho{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    opacity: 1;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logomobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 37px;
+  }
+  .caixatexto{
+    position: absolute;
+    top: 190px;
+    width: 300px;
+    height: 157px;
+    margin-left: 37px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 33px;
+    margin-top: 37px;
+  }
+  p{
+    position: absolute;
+    top: 360px;
+    left: 14px;
+    right: 14px;
+    color: white;
+    font-size: 21px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 35px;
+  }
+  body{
+    background-image: url('desk_bgr_dark-1-mobile-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  #serviços a{
+    position: fixed;
+    top: 540px;
+    left: 127px;
+    width: 125px;
+    height: 40px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  #contato{
+    display: none;
+  }
+  .menuMobile{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 39px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 414px){
+  .menu{
+    display: none;
+  }
+  .caixacabeçalho{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    opacity: 1;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logomobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 56.5px;
+  }
+  .caixatexto{
+    position: absolute;
+    top: 190px;
+    width: 300px;
+    height: 157px;
+    margin-left: 56.5px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 33px;
+    margin-top: 37px;
+  }
+  p{
+    position: absolute;
+    top: 360px;
+    left: 33.5px;
+    right: 33.5px;
+    color: white;
+    font-size: 21px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 35px;
+  }
+  body{
+    background-image: url('desk_bgr_dark-1-mobile-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  #serviços a{
+    position: fixed;
+    top: 540px;
+    left: 146.5px;
+    width: 125px;
+    height: 40px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  #contato{
+    display: none;
+  }
+  .menuMobile{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 58.5px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 667px) {
+  .menu{
+    display: none;
+  }
+  .caixacabeçalho{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    opacity: 1;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logomobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 115px;
+  }
+  .caixatexto{
+    position: absolute;
+    top: 190px;
+    width: 440px;
+    height: 157px;
+    margin-left: 115px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 30px;
+    margin-top: 37px;
+  }
+  p{
+    position: absolute;
+    top: 360px;
+    left: 115px;
+    right: 150px;
+    color: white;
+    font-size: 21px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 35px;
+    word-break: normal;
+  }
+  .menuMobile{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 115px;
+  }
+  #contato img{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+  }
+  body{
+    background-image: url('desk_bgr_dark-1-mobile-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 668px) and (max-width: 740px) {
+  .menu{
+    display: none;
+  }
+  .caixacabeçalho{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    opacity: 1;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logomobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+  }
+  .caixatexto{
+    position: absolute;
+    top: 190px;
+    width: 440px;
+    height: 157px;
+    margin-left: 150px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 30px;
+    margin-top: 37px;
+  }
+  p{
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    right: 150px;
+    color: white;
+    font-size: 21px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 35px;
+    word-break: normal;
+  }
+  .menuMobile{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 150px;
+  }
+  #contato img{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+  }
+  body{
+    background-image: url('desk_bgr_dark-1-mobile-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 741px) and (max-width: 846px) {
+  .menu{
+    display: none;
+  }
+  .caixacabeçalho{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    opacity: 1;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logomobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 62px;
+  }
+  .caixatexto{
+    position: absolute;
+    top: 342px;
+    margin-left: 62px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    height: 242px;
+  }
+  p{
+    display: none;
+  }
+  .menuMobile{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 62px;
+  }
+  #contato a{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+  }
+  #contato img{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+  }
+  body{
+    background-image: url('desk_bgr_dark-1-mobile-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+.linklogin{
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: #e05600;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  line-height: 45px;
+  border-radius: 15px;
+}
+.buscador{
+  background-color: #e05600;
+  color: black;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+}
