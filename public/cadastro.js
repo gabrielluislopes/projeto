@@ -5,8 +5,9 @@ function logar() {
 
   console.log(usuario+senha);
 
-  if (senha.length <= 3) {
+  if (senha.length < 4) {
     alert('A senha deve conter mais que 3 caracteres!');
+    window.location.href = "cadastro";
   }
 
   axios.post('./cadastro/', {usuario: usuario, senha: senha})
